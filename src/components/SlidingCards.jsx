@@ -10,24 +10,24 @@ const SlidingCards = () => {
     const custimg = [
         {
             name: 'SAR',
-            img: 'src/assets/images/sar.png',
+            img: '/assets/images/sar.png',
             
         },
         {
             name: 'vov',
-            img: 'src/assets/images/vov.jpg',
+            img: '/assets/images/vov.jpg',
         },
         {
             name: 'SPIMACO',
-            img: 'src/assets/images/SPIMACO.png', 
+            img: '/assets/images/SPIMACO.png', 
         },
         {
             name: 'GTSC',
-            img: 'src/assets/images/GTSC.png', 
+            img: '/assets/images/GTSC.png', 
         },
         {
             name: 'BlueSpace',
-            img: 'src/assets/images/BlueSpace.jpeg', 
+            img: '/assets/images/BlueSpace.jpeg', 
         }
     ]
     console.log(ServicesInfo);
