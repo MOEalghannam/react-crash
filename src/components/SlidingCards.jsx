@@ -4,30 +4,36 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 
+import sarImg from '../assets/images/SAR.png'
+import vovImg from '../assets/images/vov.jpg';
+import spimacoImg from '../assets/images/SPIMACO.png';
+import gtscImg from '../assets/images/GTSC.png';
+import blueSpaceImg from '../assets/images/BlueSpace.jpeg';
+
 
 const SlidingCards = () => {
     const info = ServicesInfo
     const custimg = [
         {
             name: 'SAR',
-            img: '/assets/images/sar.png',
+            img: sarImg,
             
         },
         {
             name: 'vov',
-            img: '/assets/images/vov.jpg',
+            img: vovImg,
         },
         {
             name: 'SPIMACO',
-            img: '/assets/images/SPIMACO.png', 
+            img: spimacoImg, 
         },
         {
             name: 'GTSC',
-            img: '/assets/images/GTSC.png', 
+            img: gtscImg, 
         },
         {
             name: 'BlueSpace',
-            img: '/assets/images/BlueSpace.jpeg', 
+            img: blueSpaceImg, 
         }
     ]
     console.log(ServicesInfo);

@@ -13,7 +13,7 @@ const Navbar = () => {
               <img
                 className="h-10 w-auto mr-4"
                 src={logo}
-                alt="React Jobs"
+                alt="Simworld logo"
               />
             </a>
           </div>
