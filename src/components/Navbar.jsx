@@ -9,13 +9,14 @@ const Navbar = () => {
           {/* Left side of Navbar */}
           <div className="flex items-center">
             {/* Logo */}
-            <a href="/index.html">
-              <img
+            {/* <a href="/index.html">
+              
+            </a> */}
+            <img
                 className="h-10 w-auto mr-4"
                 src={logo}
                 alt="Simworld logo"
               />
-            </a>
           </div>
 
           {/* Right side of Navbar (Title) */}
